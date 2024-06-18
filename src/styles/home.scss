@@ -7,3 +7,17 @@
     align-items: center;
     background: $light;
 }
+
+.placeholder {
+    justify-content: center !important;
+    
+    svg {
+        width: 200px;
+        height: 200px;
+    }
+
+    p {
+        padding: 5px 0;
+        margin: 0;
+    }
+}
