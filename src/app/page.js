@@ -43,7 +43,7 @@ import IKClogo from "@/svg/ikc_logo"
 //   return data.posts.nodes;
 // }
 
-export default async function Home() {
+export default async function HomePlace() {
   // const posts = await getPosts()
 
   return (
