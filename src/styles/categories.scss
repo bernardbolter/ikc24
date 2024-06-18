@@ -1,0 +1,16 @@
+.categories-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 20px;
+    background: $light;
+
+    p {
+        cursor: pointer;
+        color: $dark;
+        font-size: 12px;
+        padding: 0 20px 0 0;
+    }
+}

@@ -1,2 +1,21 @@
 @import './vars.scss';
 @import './home.scss';
+@import './nav.scss';
+@import './portfolio.scss';
+@import './footer.scss';
+@import './loading.scss';
+@import './categories.scss';
+@import './tile.scss';
+@import './project.scss';
+@import './about.scss';
+@import './slide.scss';
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
