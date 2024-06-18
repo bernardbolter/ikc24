@@ -49,7 +49,7 @@ export default async function Home() {
   return (
     <section className="ikc-container placeholder">
       <IKClogo />
-      <p>new website coming soon</p>
+      <p>new website coming soon!</p>
 
       {/* <Nav />
       <Portfolio projects={posts} />
