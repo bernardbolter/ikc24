@@ -14,12 +14,14 @@ const Project = ({ project }) => {
                     <div dangerouslySetInnerHTML={{__html: project.content}} />
                 </div>
                 <div className="project-slider-container">
-                    <Image
+                    {project.projects.projectImage1 && (
+                        <Image
                         src={project.projects.projectImage1.node.sourceUrl}
                         alt="new new"
                         width={300}
                         height={300}
                     />
+                    )}
                 </div>
             </div>
         </Suspense>

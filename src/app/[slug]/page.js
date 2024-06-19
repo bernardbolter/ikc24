@@ -101,7 +101,7 @@ const project = await getProject(slug)
 export async function generateStaticParams() {
     const query = `
         {
-            posts(first: 1000) {
+            posts(first: 100) {
                 nodes {
                     slug
                 }
@@ -117,6 +117,7 @@ export async function generateStaticParams() {
     })
 
     const { data } = await res.json()
+    console.log(data.posts.nodes)
   
     return data.posts.nodes.map((post) => ({
       slug: post.slug,

@@ -18,7 +18,7 @@ const Tile = ({ tile }) => {
                 className="tile-image"
             />
             <p>{tile.projects.subtitle}</p>
-            <div class="tile-categories">
+            <div className="tile-categories">
                 {tile.categories.nodes.map(cat => (
                     <p key={cat.name}>{cat.name}</p>
                 ))}

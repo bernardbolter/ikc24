@@ -10,15 +10,15 @@ import Loading from './Loading'
 const Portfolio = ({ projects }) => {
     const [kat, setKat] = useContext(KatContext)
 
-    useEffect(() => {
-        if (kat.portfolio.length === 0) {
-            setKat(state => ({
-                ...state, 
-                portfolio: projects,
-                filteredPortfolio: projects
-            }))
-        }
-    }, [kat.portfolio])
+    // useEffect(() => {
+    //     if (kat.portfolio.length === 0) {
+    //         setKat(state => ({
+    //             ...state, 
+    //             portfolio: projects,
+    //             filteredPortfolio: projects
+    //         }))
+    //     }
+    // }, [kat.portfolio])
 
     return (
         <section className="portfolio-container">
